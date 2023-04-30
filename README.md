@@ -1,18 +1,17 @@
-|当前版本|current version|
-|:------|:--|
-|![current version](https://shields.io/badge/%E5%BD%93%E5%89%8D%E7%89%88%E6%9C%AC-1.9.1-green?logo=github&style=for-the-badge)|![current version](https://shields.io/badge/current%20version-1.9.1-green?logo=github&style=for-the-badge)|
+![current version](https://shields.io/badge/%E5%BD%93%E5%89%8D%E7%89%88%E6%9C%AC-1.9.2-green?logo=github&style=for-the-badge)
 
+# 介绍
 
-# 介绍 | Introduction
+[YOURLS](https://github.com/YOURLS/YOURLS) 中文翻译
 
-translation for [yourls](https://github.com/YOURLS/YOURLS)
+基于 https://github.com/ZvonimirSun/YOURLS-zh_CN
 
-YOURLS 中文翻译
+# 使用说明
 
-based on https://github.com/ZvonimirSun/YOURLS-zh_CN
+参阅：https://yourls.org/docs/guide/extend/languages#install-your-language
 
-# 使用说明 | How to use
+# 提醒
 
-参阅：https://docs.yourls.org/guide/extend/languages.html#install-your-language
+如希望保持翻译为最新版，请点右上方的 `watch` 关注 `release` 更新，如果帮助到了您，请点一下 star ，如果希望使用旧版本请查看 [release](https://github.com/taozhiyu/yourls-translation-zh_CN/releases) 的历史版本
 
-see: https://docs.yourls.org/guide/extend/languages.html#install-your-language
+> 反正也没人点。。。随口说一下

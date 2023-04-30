@@ -1,8 +1,8 @@
 msgid ""
 msgstr ""
 "Project-Id-Version: YOURLS 1.9.1\n"
-"POT-Creation-Date: 2022-12-26 04:00+0000\n"
-"PO-Revision-Date: 2022-12-26 04:05+0000\n"
+"POT-Creation-Date: 2023-04-30 16:24+0100\n"
+"PO-Revision-Date: 2023-04-30 16:27+0100\n"
 "Last-Translator: 涛之雨|taozhiyu\n"
 "Language-Team: \n"
 "Language: zh_CN\n"
@@ -117,7 +117,7 @@ msgstr "插件已经激活"
 msgid "Plugin has been deactivated"
 msgstr "插件已经取消激活"
 
-#: admin/plugins.php:60 includes/functions-html.php:817
+#: admin/plugins.php:60 includes/functions-html.php:818
 msgid "Manage Plugins"
 msgstr "管理插件"
 
@@ -489,11 +489,11 @@ msgstr "你的安装版本已经是最新版了！ "
 msgid "Go back to <a href=\"%s\">the admin interface</a>"
 msgstr "返回 <a href=\"%s\">管理界面</a>"
 
-#: includes/Database/YDB.php:165
+#: includes/Database/YDB.php:167
 msgid "Incorrect DB config, or could not connect to DB"
 msgstr "数据库配置错误，或无法连接到数据库"
 
-#: includes/Database/YDB.php:168 includes/class-mysql.php:17
+#: includes/Database/YDB.php:169 includes/class-mysql.php:17
 msgid "Fatal error"
 msgstr "严重错误"
 
@@ -503,7 +503,7 @@ msgstr "全部"
 
 #: includes/Views/AdminParams.php:61 includes/functions-html.php:243
 #: includes/functions-html.php:255 includes/functions-html.php:529
-#: includes/functions-html.php:674 yourls-infos.php:219
+#: includes/functions-html.php:675 yourls-infos.php:219
 msgid "Short URL"
 msgstr "短网址"
 
@@ -522,12 +522,12 @@ msgid "IP Address"
 msgstr "IP"
 
 #: includes/Views/AdminParams.php:65 includes/functions-html.php:258
-#: includes/functions-html.php:676
+#: includes/functions-html.php:677
 msgid "Date"
 msgstr "日期"
 
 #: includes/Views/AdminParams.php:66 includes/functions-html.php:260
-#: includes/functions-html.php:678
+#: includes/functions-html.php:679
 msgid "Clicks"
 msgstr "点击次数"
 
@@ -581,19 +581,19 @@ msgstr[0] "%s 次查询"
 msgid "Powered by %s"
 msgstr "由 %s 驱动"
 
-#: includes/functions-html.php:190 user/plugins/expiry/plugin.php:556
+#: includes/functions-html.php:190
 msgid "Enter the URL"
 msgstr "输入链接"
 
-#: includes/functions-html.php:192 user/plugins/expiry/plugin.php:558
+#: includes/functions-html.php:192
 msgid "Optional "
 msgstr "可选 "
 
-#: includes/functions-html.php:192 user/plugins/expiry/plugin.php:558
+#: includes/functions-html.php:192
 msgid "Custom short URL"
 msgstr "自定义短网址"
 
-#: includes/functions-html.php:195 user/plugins/expiry/plugin.php:560
+#: includes/functions-html.php:195
 msgid "Shorten The URL"
 msgstr "缩短"
 
@@ -602,7 +602,7 @@ msgid "Search for"
 msgstr "搜索"
 
 #: includes/functions-html.php:246 includes/functions-html.php:259
-#: includes/functions-html.php:677
+#: includes/functions-html.php:678
 msgid "IP"
 msgstr "IP"
 
@@ -737,8 +737,8 @@ msgstr "快速分享"
 msgid "Long link"
 msgstr "长网址"
 
-#: includes/functions-html.php:441 includes/functions-html.php:570
-#: includes/functions-html.php:571
+#: includes/functions-html.php:441 includes/functions-html.php:571
+#: includes/functions-html.php:572
 msgid "Stats"
 msgstr "数据统计"
 
@@ -778,91 +778,91 @@ msgstr "取消编辑"
 msgid "Error, URL not found"
 msgstr "错误，没有找到该网址"
 
-#: includes/functions-html.php:576 includes/functions-html.php:577
+#: includes/functions-html.php:577 includes/functions-html.php:578
 #: yourls-infos.php:247 yourls-infos.php:548
 msgid "Share"
 msgstr "分享"
 
-#: includes/functions-html.php:583 includes/functions-html.php:584
+#: includes/functions-html.php:584 includes/functions-html.php:585
 msgid "Edit"
 msgstr "编辑"
 
-#: includes/functions-html.php:590 includes/functions-html.php:591
+#: includes/functions-html.php:591 includes/functions-html.php:592
 msgid "Delete"
 msgstr "删除"
 
-#: includes/functions-html.php:612
+#: includes/functions-html.php:613
 msgid "Not a common link"
 msgstr "不是一个常规链接"
 
-#: includes/functions-html.php:675
+#: includes/functions-html.php:676
 msgid "Original URL"
 msgstr "原网址"
 
-#: includes/functions-html.php:679
+#: includes/functions-html.php:680
 msgid "Actions"
 msgstr "操作"
 
-#: includes/functions-html.php:757
+#: includes/functions-html.php:758
 msgid "Username"
 msgstr "用户名"
 
-#: includes/functions-html.php:761
+#: includes/functions-html.php:762
 msgid "Password"
 msgstr "密码"
 
-#: includes/functions-html.php:769
+#: includes/functions-html.php:770
 msgid "Login"
 msgstr "登录"
 
-#: includes/functions-html.php:795
+#: includes/functions-html.php:796
 #, php-format
 msgid "Hello <strong>%s</strong>"
 msgstr "你好 <strong>%s</strong>"
 
-#: includes/functions-html.php:795
+#: includes/functions-html.php:796
 msgid "Logout"
 msgstr "注销"
 
-#: includes/functions-html.php:799
+#: includes/functions-html.php:800
 msgid "Help"
 msgstr "帮助"
 
-#: includes/functions-html.php:806
+#: includes/functions-html.php:807
 msgid "Go to the admin interface"
 msgstr "前往管理员界面"
 
-#: includes/functions-html.php:807
+#: includes/functions-html.php:808
 msgid "Admin interface"
 msgstr "管理界面"
 
-#: includes/functions-html.php:813
+#: includes/functions-html.php:814
 msgid "Tools"
 msgstr "工具"
 
-#: includes/functions-html.php:904
+#: includes/functions-html.php:905
 #, php-format
 msgid "Page \"%1$s\" not found"
 msgstr "共 %s 页"
 
-#: includes/functions-html.php:904
+#: includes/functions-html.php:905 includes/functions-html.php:911
 msgid "Not found"
 msgstr "错误，没有找到该网址"
 
-#: includes/functions-html.php:952 includes/functions-html.php:957
+#: includes/functions-html.php:956 includes/functions-html.php:961
 msgid "Today"
 msgstr "今天"
 
-#: includes/functions-html.php:953 includes/functions-html.php:958
+#: includes/functions-html.php:957 includes/functions-html.php:962
 msgid "Close"
 msgstr "关闭"
 
-#: includes/functions-html.php:977
+#: includes/functions-html.php:981
 #, php-format
 msgid "<a href=\"%s\">YOURLS version %s</a> is available. Please update!"
 msgstr "<a href=\"%s\">YOURLS 版本 %s</a> 已发布。请升级！"
 
-#: includes/functions-html.php:992
+#: includes/functions-html.php:996
 msgid "Drag to your toolbar!"
 msgstr "拖拽到你的书签栏！"
 
@@ -1120,145 +1120,132 @@ msgstr "无效的插件文件"
 msgid "Plugin already activated"
 msgstr "插件已经激活"
 
-#: includes/functions-plugins.php:664 includes/functions-plugins.php:713
+#: includes/functions-plugins.php:664
 #, php-format
 msgid "Plugin generated unexpected output. Error was: <br/><pre>%s</pre>"
 msgstr "插件生成了未预期的输出。错误为：<br/><pre>%s</pre>"
 
-#: includes/functions-plugins.php:704
+#: includes/functions-plugins.php:688
 msgid "Plugin not active"
 msgstr "插件未激活"
 
-#: includes/functions-plugins.php:800
+#: includes/functions-plugins.php:697
+#, php-format
+msgid "Loading %s generated unexpected output. Error was: <br/><pre>%s</pre>"
+msgstr "加载 %s 时产生了意外的输出。错误为：<br/><pre>%s</pre>"
+
+#: includes/functions-plugins.php:788
 msgid ""
 "This page does not exist. Maybe a plugin you thought was activated is "
 "inactive?"
 msgstr "这个页面不存在。可能是插件未激活？"
 
-#: includes/functions-plugins.php:800
+#: includes/functions-plugins.php:788
 msgid "Invalid link"
 msgstr "无效的链接"
 
-#: includes/functions-plugins.php:806
+#: includes/functions-plugins.php:794
 msgid ""
 "This page cannot be displayed because the displaying function is not "
 "callable."
 msgstr "无法显示此页，因为显示功能不可调用。"
 
-#: includes/functions-plugins.php:806
+#: includes/functions-plugins.php:794
 msgid "Invalid code"
 msgstr "无效代码"
 
-#: includes/functions-shorturls.php:55
+#: includes/functions-shorturls.php:56
 msgid "Missing or malformed URL"
 msgstr "丢失或错误格式的网址"
 
-#: includes/functions-shorturls.php:69
+#: includes/functions-shorturls.php:70
 msgid "URL is a short URL"
 msgstr "该网址已经是一个短网址"
 
-#: includes/functions-shorturls.php:83
+#: includes/functions-shorturls.php:84
 #, php-format
 msgid "%s already exists in database (short URL: %s)"
 msgstr "%s已经存在于数据库中 (短网址：%s)"
 
-#: includes/functions-shorturls.php:111
+#: includes/functions-shorturls.php:112
 #, php-format
 msgid "Short URL %s already exists in database or is reserved"
 msgstr "短网址 %s 已经存在数据库中或被回收"
 
-#: includes/functions-shorturls.php:141
+#: includes/functions-shorturls.php:142
 #, php-format
 msgid "%s added to database"
 msgstr "%s 已添加到数据库"
 
-#: includes/functions-shorturls.php:150
+#: includes/functions-shorturls.php:151
 msgid "Error saving url to database"
 msgstr "保存短网址到数据库错误"
 
-#: includes/functions-shorturls.php:331
+#: includes/functions-shorturls.php:332
 msgid "Long URL or Short URL cannot be blank"
 msgstr "长网址或短网址不能为空"
 
-#: includes/functions-shorturls.php:367
+#: includes/functions-shorturls.php:368
 msgid "Link updated in database"
 msgstr "链接已更新"
 
-#: includes/functions-shorturls.php:370
+#: includes/functions-shorturls.php:371
 #, php-format
 msgid "Error updating %s (Short URL: %s)"
 msgstr "更新错误 %s (短网址: %s)"
 
-#: includes/functions-shorturls.php:376
+#: includes/functions-shorturls.php:377
 msgid "URL or keyword already exists in database"
 msgstr "网址或关键字已经存在数据库中"
 
-#: includes/functions.php:384
+#: includes/functions.php:403
 #, php-format
 msgid ""
 "if you are not redirected after 10 seconds, please <a href=\"%s\">click "
 "here</a>"
 msgstr "如果未在 10 秒钟内跳转页面，请<a href=\"%s\">点击这里</a>"
 
-#: includes/functions.php:393
+#: includes/functions.php:412
 #, php-format
 msgid "Please <a href=\"%s\">click here</a>"
 msgstr "请<a href=\"%s\">点击这里</a>"
 
-#: includes/functions.php:649
+#: includes/functions.php:668
 msgid "Too many URLs added too fast. Slow down please."
 msgstr "网址过多，添加太快啦。请放慢速度。"
 
-#: includes/functions.php:649
+#: includes/functions.php:668
 msgid "Too Many Requests"
 msgstr "请求次数过多"
 
-#: includes/functions.php:1088
+#: includes/functions.php:1116
 msgid "Service temporarily unavailable"
 msgstr "服务暂时不可用"
 
-#: includes/functions.php:1089
+#: includes/functions.php:1117
 msgid "Our service is currently undergoing scheduled maintenance."
 msgstr "我们的服务目前正在进行定期维护。"
 
-#: includes/functions.php:1090
+#: includes/functions.php:1118
 msgid ""
 "Things should not last very long, thank you for your patience and please "
 "excuse the inconvenience"
 msgstr "不会持续很长时间，感谢你的耐心等待"
 
-#: includes/functions.php:1199
+#: includes/functions.php:1227
 #, php-format
 msgid ""
 "%1$s is <strong>deprecated</strong> since version %2$s! Use %3$s instead."
 msgstr ""
 "从 %2$s 版本开始， %1$s 已经<strong>不再使用</strong>! 使用 %3$s 代替。"
 
-#: includes/functions.php:1201
+#: includes/functions.php:1229
 #, php-format
 msgid ""
 "%1$s is <strong>deprecated</strong> since version %2$s with no alternative "
 "available."
 msgstr ""
 "从 %2$s 版本开始，%1$s 已经<strong>不再使用</strong>，并且暂无代替的方法。"
-
-#: user/plugins/expiry/plugin.php:651
-msgid "Expiry"
-msgstr "期限"
-
-#: user/plugins/expiry/plugin.php:652
-msgid "Add Expiry Data"
-msgstr "添加到期时间"
-
-#: user/plugins/sample-toolbar/plugin.php:63
-msgid "day"
-msgid_plural "days"
-msgstr[0] "天"
-
-#: user/plugins/sample-toolbar/plugin.php:68
-msgid "view"
-msgid_plural "views"
-msgstr[0] "视图"
 
 #: yourls-infos.php:212
 #, php-format
@@ -1423,3 +1410,17 @@ msgstr "没有引荐数据。"
 #: yourls-infos.php:550
 msgid "Short link"
 msgstr "短网址"
+
+#~ msgid "Expiry"
+#~ msgstr "期限"
+
+#~ msgid "Add Expiry Data"
+#~ msgstr "添加到期时间"
+
+#~ msgid "day"
+#~ msgid_plural "days"
+#~ msgstr[0] "天"
+
+#~ msgid "view"
+#~ msgid_plural "views"
+#~ msgstr[0] "视图"
