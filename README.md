@@ -1,6 +1,4 @@
-[![Listed in Awesome YOURLS!](https://img.shields.io/static/v1?label=Awesome&message=YOURLS&color=C5A3BE&style=flat-square)](https://github.com/YOURLS/awesome-yourls/)
-
-![current version](https://shields.io/badge/%E5%BD%93%E5%89%8D%E7%89%88%E6%9C%AC-1.9.2-green?logo=github&style=for-the-badge)
+[![Listed in Awesome YOURLS!](https://img.shields.io/static/v1?label=Awesome&message=YOURLS&color=C5A3BE&style=flat-square)](https://github.com/YOURLS/awesome-yourls/)  [![current version](https://img.shields.io/github/v/release/taozhiyu/yourls-translation-zh_cn?include_prereleases&display_name=release&style=flat-square&logo=github)](https://github.com/taozhiyu/yourls-translation-zh_CN/releases)
 
 # 介绍
 
