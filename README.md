@@ -8,10 +8,13 @@
 
 # 使用说明
 
-参阅：https://yourls.org/docs/guide/extend/languages#install-your-language
+- 参阅：https://yourls.org/docs/guide/extend/languages#install-your-language
+- 或直接使用 [多语言管理](https://github.com/8Mi-Tech/yourls-i18n-manager/) 插件管理该语言
 
 # 提醒
 
-如希望保持翻译为最新版，请点右上方的 `watch` 关注 `release` 更新，如果帮助到了您，请点一下 star ，如果希望使用旧版本请查看 [release](https://github.com/taozhiyu/yourls-translation-zh_CN/releases) 的历史版本
+- 如果帮助到了您，请点一下 star
+- 如希望保持翻译为最新版，请点右上方的 `watch` 关注 `release` 更新，
+- 如果希望使用旧版本请查看 [release](https://github.com/taozhiyu/yourls-translation-zh_CN/releases) 的历史版本
 
 > 反正也没人点。。。随口说一下
