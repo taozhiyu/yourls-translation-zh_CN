@@ -1,9 +1,9 @@
 msgid ""
 msgstr ""
-"Project-Id-Version: YOURLS 1.9.3-dev\n"
+"Project-Id-Version: YOURLS 1.10.2\n"
 "Report-Msgid-Bugs-To: \n"
-"POT-Creation-Date: 2025-03-04 21:48+0000\n"
-"PO-Revision-Date: 2025-03-07 18:09+0800\n"
+"POT-Creation-Date: 2025-08-01 23:44+0800\n"
+"PO-Revision-Date: 2025-08-01 23:44+0800\n"
 "Last-Translator: 涛之雨|taozhiyu\n"
 "Language-Team: \n"
 "Language: zh_CN\n"
@@ -11,11 +11,9 @@ msgstr ""
 "Content-Type: text/plain; charset=UTF-8\n"
 "Content-Transfer-Encoding: 8bit\n"
 "Plural-Forms: nplurals=1; plural=0;\n"
-"X-Generator: Poedit 3.5\n"
-"X-Poedit-KeywordsList: yourls__;yourls_e;yourls_s;yourls_se;"
-"yourls_esc_attr__;yourls_esc_html__;yourls_x;yourls_ex;yourls_esc_attr_x;"
-"yourls_esc_html_x;yourls_n:1,2;yourls_nx:1,2;yourls_n_noop:1,2;"
-"yourls_nx_noop:1,2\n"
+"X-Generator: Poedit 3.6\n"
+"X-Poedit-KeywordsList: "
+"yourls__;yourls_e;yourls_s;yourls_se;yourls_esc_attr__;yourls_esc_html__;yourls_x;yourls_ex;yourls_esc_attr_x;yourls_esc_html_x;yourls_n:1,2;yourls_nx:1,2;yourls_n_noop:1,2;yourls_nx_noop:1,2\n"
 "X-Poedit-Basepath: YOURLS\n"
 "X-Poedit-SearchPath-0: .\n"
 "X-Poedit-SearchPathExcluded-0: .git\n"
@@ -41,7 +39,15 @@ msgstr "短网址已创建，但无法重定向到 %s ！"
 msgid "Unknown \"Share\" bookmarklet"
 msgstr "未知的 “分享” 书签工具"
 
-#: admin/index.php:246
+#: admin/index.php:247
+msgid "No URLs."
+msgstr "没有网址。"
+
+#: admin/index.php:249
+msgid "Try being less specific"
+msgstr "尝试不那么具体"
+
+#: admin/index.php:251
 #, php-format
 msgid ""
 "Display <strong>%1$s</strong> to <strong class=\"increment\">%2$s</strong> "
@@ -50,13 +56,13 @@ msgstr ""
 "显示共计 <strong class=\"increment\">%3$s</strong> 个网址中的第 "
 "<strong>%1$s</strong> 个至第 <strong class=\"increment\">%2$s</strong> 个"
 
-#: admin/index.php:248
+#: admin/index.php:253
 #, php-format
 msgid "counting <strong>1</strong> click"
 msgid_plural "counting <strong>%s</strong> clicks"
 msgstr[0] "共计 <strong>%s<strong> 次点击"
 
-#: admin/index.php:251
+#: admin/index.php:257
 #, php-format
 msgid ""
 "Overall, tracking <strong class=\"increment\">%1$s</strong> links, "
@@ -65,7 +71,7 @@ msgstr ""
 "共 <strong class=\"increment\">%s</strong> 个，<strong>%s</strong>次点击，持"
 "续统计中！"
 
-#: admin/index.php:312
+#: admin/index.php:318
 msgid "No URL"
 msgstr "无结果"
 
@@ -118,7 +124,7 @@ msgstr "插件已经激活"
 msgid "Plugin has been deactivated"
 msgstr "插件已经取消激活"
 
-#: admin/plugins.php:60 includes/functions-html.php:818
+#: admin/plugins.php:60 includes/functions-html.php:824
 msgid "Manage Plugins"
 msgstr "管理插件"
 
@@ -188,8 +194,8 @@ msgid ""
 "the plugin file to something different than <code>plugin.php</code>."
 msgstr ""
 "如果在你激活插件后发生了某些错误，导致你无法使用YOURLS或者无法进入这个页面，"
-"请直接删除或重命名这个插件目录，也可以只更改插件的文件名称(从<code>plugin."
-"php</code>改为其它)。"
+"请直接删除或重命名这个插件目录，也可以只更改插件的文件名称(从"
+"<code>plugin.php</code>改为其它)。"
 
 #: admin/plugins.php:162
 msgid "More plugins"
@@ -497,23 +503,23 @@ msgstr "数据库配置错误，或无法连接到数据库"
 msgid "Fatal error"
 msgstr "严重错误"
 
-#: includes/Views/AdminParams.php:60 includes/functions-html.php:242
+#: includes/Views/AdminParams.php:60 includes/functions-html.php:246
 msgid "All fields"
 msgstr "全部"
 
-#: includes/Views/AdminParams.php:61 includes/functions-html.php:243
-#: includes/functions-html.php:255 includes/functions-html.php:529
-#: includes/functions-html.php:675 yourls-infos.php:219
+#: includes/Views/AdminParams.php:61 includes/functions-html.php:247
+#: includes/functions-html.php:259 includes/functions-html.php:533
+#: includes/functions-html.php:679 yourls-infos.php:219
 msgid "Short URL"
 msgstr "短网址"
 
-#: includes/Views/AdminParams.php:62 includes/functions-html.php:244
-#: includes/functions-html.php:256
+#: includes/Views/AdminParams.php:62 includes/functions-html.php:248
+#: includes/functions-html.php:260
 msgid "URL"
 msgstr "长网址"
 
-#: includes/Views/AdminParams.php:63 includes/functions-html.php:245
-#: includes/functions-html.php:257 includes/functions-html.php:529
+#: includes/Views/AdminParams.php:63 includes/functions-html.php:249
+#: includes/functions-html.php:261 includes/functions-html.php:533
 msgid "Title"
 msgstr "标题"
 
@@ -521,13 +527,13 @@ msgstr "标题"
 msgid "IP Address"
 msgstr "IP"
 
-#: includes/Views/AdminParams.php:65 includes/functions-html.php:258
-#: includes/functions-html.php:677
+#: includes/Views/AdminParams.php:65 includes/functions-html.php:262
+#: includes/functions-html.php:681
 msgid "Date"
 msgstr "日期"
 
-#: includes/Views/AdminParams.php:66 includes/functions-html.php:260
-#: includes/functions-html.php:679
+#: includes/Views/AdminParams.php:66 includes/functions-html.php:264
+#: includes/functions-html.php:683
 msgid "Clicks"
 msgstr "点击次数"
 
@@ -563,306 +569,306 @@ msgid "Please log in"
 msgstr "请登录"
 
 #: includes/functions-auth.php:700
-msgid "Error"
-msgstr "错误"
-
-#: includes/functions-auth.php:700
 msgid "Unauthorized action or expired link"
 msgstr "未授权的行为或链接过期"
 
-#: includes/functions-html.php:147
+#: includes/functions-auth.php:700
+msgid "Error"
+msgstr "错误"
+
+#: includes/functions-html.php:151
 #, php-format
 msgid "1 query"
 msgid_plural "%s queries"
 msgstr[0] "%s 次查询"
 
-#: includes/functions-html.php:156
+#: includes/functions-html.php:160
 #, php-format
 msgid "Powered by %s"
 msgstr "由 %s 驱动"
 
-#: includes/functions-html.php:190
+#: includes/functions-html.php:194
 msgid "Enter the URL"
 msgstr "输入链接"
 
-#: includes/functions-html.php:192
-msgid "Custom short URL"
-msgstr "自定义短网址"
-
-#: includes/functions-html.php:192
+#: includes/functions-html.php:196
 msgid "Optional "
 msgstr "可选 "
 
-#: includes/functions-html.php:195
+#: includes/functions-html.php:196
+msgid "Custom short URL"
+msgstr "自定义短网址"
+
+#: includes/functions-html.php:199
 msgid "Shorten The URL"
 msgstr "缩短URL"
 
-#: includes/functions-html.php:240
+#: includes/functions-html.php:244
 msgid "Search for"
 msgstr "搜索"
 
-#: includes/functions-html.php:246 includes/functions-html.php:259
-#: includes/functions-html.php:678
+#: includes/functions-html.php:250 includes/functions-html.php:263
+#: includes/functions-html.php:682
 msgid "IP"
 msgstr "IP"
 
-#: includes/functions-html.php:248
+#: includes/functions-html.php:252
 msgid "Search in"
 msgstr "搜索"
 
-#: includes/functions-html.php:250
+#: includes/functions-html.php:254
 #, php-format
 msgid "Search for %1$s in %2$s"
 msgstr "在 %2$s 中搜索 %1$s"
 
-#: includes/functions-html.php:262
+#: includes/functions-html.php:266
 msgid "Sort by"
 msgstr "排序"
 
-#: includes/functions-html.php:265
+#: includes/functions-html.php:269
 msgid "Ascending"
 msgstr "升序"
 
-#: includes/functions-html.php:266
+#: includes/functions-html.php:270
 msgid "Descending"
 msgstr "降序"
 
-#: includes/functions-html.php:268
+#: includes/functions-html.php:272
 msgid "Sort order"
 msgstr "排序顺序"
 
-#: includes/functions-html.php:270
+#: includes/functions-html.php:274
 #, php-format
 msgid "Order by %1$s %2$s"
 msgstr "按照 %1$s %2$s 排序"
 
-#: includes/functions-html.php:275
+#: includes/functions-html.php:279
 msgid "Number of rows to show"
 msgstr "显示行数"
 
-#: includes/functions-html.php:276
+#: includes/functions-html.php:280
 #, php-format
 msgid "Show %s rows"
 msgstr "显示 %s 行"
 
-#: includes/functions-html.php:281
+#: includes/functions-html.php:285
 msgid "more"
 msgstr "多"
 
-#: includes/functions-html.php:282
+#: includes/functions-html.php:286
 msgid "less"
 msgstr "少"
 
-#: includes/functions-html.php:284
+#: includes/functions-html.php:288
 msgid "Show links with"
 msgstr "显示链接"
 
-#: includes/functions-html.php:285
+#: includes/functions-html.php:289
 msgid "Number of clicks"
 msgstr "点击次数"
 
-#: includes/functions-html.php:287
+#: includes/functions-html.php:291
 #, php-format
 msgid "Show links with %1$s than %2$s clicks"
 msgstr "显示 %1$s 于 %2$s 次点击的网址"
 
-#: includes/functions-html.php:292
+#: includes/functions-html.php:296
 msgid "before"
 msgstr "先于"
 
-#: includes/functions-html.php:293
+#: includes/functions-html.php:297
 msgid "after"
 msgstr "晚于"
 
-#: includes/functions-html.php:294
+#: includes/functions-html.php:298
 msgid "between"
 msgstr "间于"
 
-#: includes/functions-html.php:296
+#: includes/functions-html.php:300
 msgid "Show links created"
 msgstr "显示创建的链接"
 
-#: includes/functions-html.php:297
+#: includes/functions-html.php:301
 msgid "Select a date"
 msgstr "选择一个日期"
 
-#: includes/functions-html.php:299
+#: includes/functions-html.php:303
 msgid "Select an end date"
 msgstr "选择截止日期"
 
-#: includes/functions-html.php:301
+#: includes/functions-html.php:305
 #, php-format
 msgid "Show links created %1$s %2$s %3$s %4$s"
 msgstr "显示 %1$s %2$s %3$s %4$s 创建的网址"
 
-#: includes/functions-html.php:305
+#: includes/functions-html.php:309
 msgid "Search"
 msgstr "搜索"
 
-#: includes/functions-html.php:307
+#: includes/functions-html.php:311
 msgid "Clear"
 msgstr "清空条件"
 
-#: includes/functions-html.php:327
+#: includes/functions-html.php:331
 #, php-format
 msgid "1 page"
 msgid_plural "%s pages"
 msgstr[0] "共 %s 页"
 
-#: includes/functions-html.php:335
-msgid "&laquo; First"
-msgstr "&laquo; 最前"
-
-#: includes/functions-html.php:335
+#: includes/functions-html.php:339
 msgid "Go to First Page"
 msgstr "转到第一页"
 
-#: includes/functions-html.php:349
+#: includes/functions-html.php:339
+msgid "&laquo; First"
+msgstr "&laquo; 最前"
+
+#: includes/functions-html.php:353
 msgid "Go to Last Page"
 msgstr "转到最后一页"
 
-#: includes/functions-html.php:349
+#: includes/functions-html.php:353
 msgid "Last &raquo;"
 msgstr "最后 &raquo;"
 
-#: includes/functions-html.php:405
+#: includes/functions-html.php:409
 msgid "Your short link"
 msgstr "你的短网址"
 
-#: includes/functions-html.php:407 yourls-infos.php:550
+#: includes/functions-html.php:411 yourls-infos.php:550
 msgid "Quick Share"
 msgstr "快速分享"
 
-#: includes/functions-html.php:439
+#: includes/functions-html.php:443
 msgid "Long link"
 msgstr "长网址"
 
-#: includes/functions-html.php:441 includes/functions-html.php:571
-#: includes/functions-html.php:572
+#: includes/functions-html.php:445 includes/functions-html.php:575
+#: includes/functions-html.php:576
 msgid "Stats"
 msgstr "数据统计"
 
-#: includes/functions-html.php:455
+#: includes/functions-html.php:459
 msgid "Share with"
 msgstr "分享到"
 
-#: includes/functions-html.php:456
+#: includes/functions-html.php:460
 msgid "Tweet this!"
 msgstr "分享到推特！"
 
-#: includes/functions-html.php:457
+#: includes/functions-html.php:461
 msgid "Share on Facebook"
 msgstr "分享到脸书"
 
-#: includes/functions-html.php:529
-msgid "Cancel"
-msgstr "取消"
-
-#: includes/functions-html.php:529
-msgid "Cancel editing"
-msgstr "取消编辑"
-
-#: includes/functions-html.php:529 yourls-infos.php:237
+#: includes/functions-html.php:533 yourls-infos.php:237
 msgid "Long URL"
 msgstr "长网址"
 
-#: includes/functions-html.php:529
+#: includes/functions-html.php:533
 msgid "Save"
 msgstr "保存"
 
-#: includes/functions-html.php:529
+#: includes/functions-html.php:533
 msgid "Save new values"
 msgstr "保存新值"
 
-#: includes/functions-html.php:531
+#: includes/functions-html.php:533
+msgid "Cancel"
+msgstr "取消"
+
+#: includes/functions-html.php:533
+msgid "Cancel editing"
+msgstr "取消编辑"
+
+#: includes/functions-html.php:535
 msgid "Error, URL not found"
 msgstr "错误，未找到该网址"
 
-#: includes/functions-html.php:577 includes/functions-html.php:578
+#: includes/functions-html.php:581 includes/functions-html.php:582
 #: yourls-infos.php:247 yourls-infos.php:548
 msgid "Share"
 msgstr "分享"
 
-#: includes/functions-html.php:584 includes/functions-html.php:585
+#: includes/functions-html.php:588 includes/functions-html.php:589
 msgid "Edit"
 msgstr "编辑"
 
-#: includes/functions-html.php:591 includes/functions-html.php:592
+#: includes/functions-html.php:595 includes/functions-html.php:596
 msgid "Delete"
 msgstr "删除"
 
-#: includes/functions-html.php:613
+#: includes/functions-html.php:617
 msgid "Not a common link"
 msgstr "不是常规链接"
 
-#: includes/functions-html.php:676
+#: includes/functions-html.php:680
 msgid "Original URL"
 msgstr "原网址"
 
-#: includes/functions-html.php:680
+#: includes/functions-html.php:684
 msgid "Actions"
 msgstr "操作"
 
-#: includes/functions-html.php:758
+#: includes/functions-html.php:763
 msgid "Username"
 msgstr "用户名"
 
-#: includes/functions-html.php:762
+#: includes/functions-html.php:767
 msgid "Password"
 msgstr "密码"
 
-#: includes/functions-html.php:770
+#: includes/functions-html.php:775
 msgid "Login"
 msgstr "登录"
 
-#: includes/functions-html.php:796
+#: includes/functions-html.php:802
 #, php-format
 msgid "Hello <strong>%s</strong>"
 msgstr "你好 <strong>%s</strong>"
 
-#: includes/functions-html.php:796
+#: includes/functions-html.php:802
 msgid "Logout"
 msgstr "注销"
 
-#: includes/functions-html.php:800
+#: includes/functions-html.php:806
 msgid "Help"
 msgstr "帮助"
 
-#: includes/functions-html.php:807
+#: includes/functions-html.php:813
 msgid "Go to the admin interface"
 msgstr "前往管理员界面"
 
-#: includes/functions-html.php:808
+#: includes/functions-html.php:814
 msgid "Admin interface"
 msgstr "管理界面"
 
-#: includes/functions-html.php:814
+#: includes/functions-html.php:820
 msgid "Tools"
 msgstr "工具"
 
-#: includes/functions-html.php:905 includes/functions-html.php:911
-msgid "Not found"
-msgstr "错误，未找到该网址"
-
-#: includes/functions-html.php:905
+#: includes/functions-html.php:911
 #, php-format
 msgid "Page \"%1$s\" not found"
 msgstr "共 %s 页"
 
-#: includes/functions-html.php:956 includes/functions-html.php:961
+#: includes/functions-html.php:911 includes/functions-html.php:917
+msgid "Not found"
+msgstr "错误，未找到该网址"
+
+#: includes/functions-html.php:962 includes/functions-html.php:967
 msgid "Today"
 msgstr "今天"
 
-#: includes/functions-html.php:957 includes/functions-html.php:962
+#: includes/functions-html.php:963 includes/functions-html.php:968
 msgid "Close"
 msgstr "关闭"
 
-#: includes/functions-html.php:981
+#: includes/functions-html.php:987
 #, php-format
 msgid "<a href=\"%s\">YOURLS version %s</a> is available. Please update!"
 msgstr "<a href=\"%s\">YOURLS 版本 %s</a> 已发布。请升级！"
 
-#: includes/functions-html.php:996
+#: includes/functions-html.php:1002
 msgid "Drag to your toolbar!"
 msgstr "拖拽到你的书签栏！"
 
@@ -1135,24 +1141,24 @@ msgid "Loading %s generated unexpected output. Error was: <br/><pre>%s</pre>"
 msgstr "加载 %s 时产生了意外的输出。错误为：<br/><pre>%s</pre>"
 
 #: includes/functions-plugins.php:788
-msgid "Invalid link"
-msgstr "无效的链接"
-
-#: includes/functions-plugins.php:788
 msgid ""
 "This page does not exist. Maybe a plugin you thought was activated is "
 "inactive?"
 msgstr "该页面不存在。可能是插件未激活？"
 
-#: includes/functions-plugins.php:794
-msgid "Invalid code"
-msgstr "无效代码"
+#: includes/functions-plugins.php:788
+msgid "Invalid link"
+msgstr "无效的链接"
 
 #: includes/functions-plugins.php:794
 msgid ""
 "This page cannot be displayed because the displaying function is not "
 "callable."
 msgstr "无法显示此页，因为显示功能不可调用。"
+
+#: includes/functions-plugins.php:794
+msgid "Invalid code"
+msgstr "无效代码"
 
 #: includes/functions-shorturls.php:56
 msgid "Missing or malformed URL"
@@ -1211,12 +1217,12 @@ msgid "Please <a href=\"%s\">click here</a>"
 msgstr "请<a href=\"%s\">点击这里</a>"
 
 #: includes/functions.php:668
-msgid "Too Many Requests"
-msgstr "请求次数过多"
-
-#: includes/functions.php:668
 msgid "Too many URLs added too fast. Slow down please."
 msgstr "网址过多，添加太快啦。请放慢速度。"
+
+#: includes/functions.php:668
+msgid "Too Many Requests"
+msgstr "请求次数过多"
 
 #: includes/functions.php:1116
 msgid "Service temporarily unavailable"
@@ -1389,15 +1395,15 @@ msgstr "直接与引荐流量对比"
 msgid "Direct"
 msgstr "直接"
 
+#: yourls-infos.php:529
+msgid "Direct traffic:"
+msgstr "直接流量："
+
 #: yourls-infos.php:529 yourls-infos.php:530
 #, php-format
 msgid "<strong>%s</strong> hit"
 msgid_plural "<strong>%s</strong> hits"
 msgstr[0] "<strong>%s</strong> 次点击"
-
-#: yourls-infos.php:529
-msgid "Direct traffic:"
-msgstr "直接流量："
 
 #: yourls-infos.php:530
 msgid "Referrer traffic:"
