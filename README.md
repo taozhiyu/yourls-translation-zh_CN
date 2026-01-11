@@ -21,6 +21,6 @@
 
 # 星图（Star 数据）
 
-[![](https://reporoster.com/stars/dark/notext/taozhiyu/yourls-translation-zh_CN)](https://github.com/taozhiyu/yourls-translation-zh_CN/stargazers)
+[![](https://reporoster.com/stars/dark/taozhiyu/yourls-translation-zh_CN)](https://github.com/taozhiyu/yourls-translation-zh_CN/stargazers)
 
 ![](https://starchart.cc/taozhiyu/yourls-translation-zh_CN.svg?variant=adaptive)
