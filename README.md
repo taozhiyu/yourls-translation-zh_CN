@@ -18,3 +18,9 @@
 - 如果希望使用旧版本请查看 [release](https://github.com/taozhiyu/yourls-translation-zh_CN/releases) 的历史版本
 
 > 反正也没人点。。。随口说一下
+
+# 星图（Star 数据）
+
+[![](https://reporoster.com/stars/dark/notext/taozhiyu/yourls-translation-zh_CN)](https://github.com/taozhiyu/yourls-translation-zh_CN/stargazers)
+
+![](https://starchart.cc/taozhiyu/yourls-translation-zh_CN.svg?variant=adaptive)
